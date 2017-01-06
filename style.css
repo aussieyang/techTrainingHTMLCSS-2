@@ -1,0 +1,53 @@
+* {
+  font-family: 'Arima Madurai', cursive;
+}
+
+h1 {
+  color: tomato;
+  font-size: 3.5vw;
+}
+
+p {
+  color: sienna;
+  font-size: 1.5vw;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px dotted brown;
+}
+
+.contentImg {
+  width: 30%;
+}
+
+#header {
+  background-color: linen;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#content {
+  background-color: seashell;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer {
+  background-color: tan;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer p {
+  color: white;
+  margin-right: 20px;
+}
+
+span {
+  width: 80px;
+}
